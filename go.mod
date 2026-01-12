@@ -14,9 +14,3 @@ require (
 	gorm.io/plugin/dbresolver v1.6.2
 )
 
-replace (
-	github.com/go-anyway/framework-config => ../config
-	github.com/go-anyway/framework-log => ../log
-	github.com/go-anyway/framework-metrics => ../../optional/metrics
-	github.com/go-anyway/framework-trace => ../../optional/trace
-)
